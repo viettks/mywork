@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<style type="text/css">
+	body{
+		background-color: #333 !important;
+	}
+	.login-input {
+		width: 100%;
+		height: 30px;
+		border: 1px;
+  		border-radius: 8px;
+  		padding-left: 10px;
+	}
+	.login-button{
+		width: 80%;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="login-form">
+		<div>
+			<img src="img/logo.png">
+			<h2>Login</h2>
+		</div>
+		<hr>
+		<div>
+			<form action="/"  style="text-align: left;">
+				
+				<label for="username" style="text-align: left;">Username</label>
+				<br>
+				<input type="text" name="username" id="username" class="login-input"></>
+				<br>
+				<label for="password">Password</label>
+				<br>
+				<input type="Password" name="password" id="password" class="login-input">
+				<br>
+				<input type="checkBox" name="save-password" id="save-password">   <label for="save-password">Remember me</label>
+				<br>
+				<div class="row">
+					<div class="col-md-4" ><button type="submit"  class="btn btn-warning login-button">Login</button></div>
+					<div class="col-md-8" style="text-align: middle;">
+						<a href="/">forgot password</a> <br>
+						or register <a href="/">here!</a>
+					</div>
+				</div>
+				
+			</form>
+		</div>
+		<hr>
+		<label>copyright 2020</label>
+		</div>
+	</div>
+</body>
+</html>
